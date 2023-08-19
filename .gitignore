@@ -4,6 +4,7 @@
 # Allow files with extension (ignoring binary files)
 !*.*
 !*/
+!Makefile
 
 
 #DS_STORE
