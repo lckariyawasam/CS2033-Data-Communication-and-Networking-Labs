@@ -1,0 +1,10 @@
+# Ignore
+*
+
+# Allow files with extension (ignoring binary files)
+!*.*
+!*/
+
+
+#DS_STORE
+**/.DS_Store
