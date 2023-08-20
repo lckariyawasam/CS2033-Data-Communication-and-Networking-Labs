@@ -18,7 +18,7 @@ void insert_node_before(list *lst, int index, char *word)
 
 	// Make a new copy of the word
 	char* new_word = malloc(strlen(word)+1);
-	strcpy(new_word, word);
+	memcpy(new_word, word, strlen(word)+1);
 	new_node->word = new_word;
 
 	// Inserting the first node
